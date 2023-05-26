@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> 
+</head> 
+    <section class="sub-header">
+    <nav>
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+          
+        </div>
+        <div class="nav-links"id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+ 
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>  
+    </nav> 
+   <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row"></div>
+        <div class="blog-left">
+            <img src="img/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs for 2023</h2>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla,eleifend faucibus est 
+                sollicitduin ut.Maecenas ut venenatis ex, et dapibus
+                purus.Donec sit amet nisl non justo malesunda ferementum.
+                Donec eget felis dolor.Supsendisse condimentum vestibulum
+                ex ac cursus.                                                              
+            </p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti iure nisi consequuntur blanditiis
+                 eius voluptatum voluptates, dolore natus libero minima ex accusamus assumenda,
+                 veniam ipsa odio quasi ad perferendis atque.</p>
+                 <br>
+                 <p>
+                    Lorem ipsum dolor sit, a
+                    met consectetur adipisicing elit. Dolorem nobis nostrum facilis quidem perferendis nemo nesciunt explicabo ipsum 
+                    quae vitae quo harum, saepe exercitationem aut, perspiciatis, dolores debitis libero repudiandae!
+                 </p>
+                 <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                 </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>27</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCad</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Comerce</span>
+                <span>31</span>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--about us content-->
+    
+    
+    
+   
+    
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.Pellentesque aliquet turpis nulla,<br> eleifend
+            faucibus est sollicitduin ut. Maecenas ut venenatis ex,
+            et dapibus purus.</p>
+            <div class="icons">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <p>Made by  <i class="fa fa-heart" aria-hidden="true"></i>Easy Tutorials</p>
+    </section>
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+             
+        }
+     </script>
+</body>
+</html>
